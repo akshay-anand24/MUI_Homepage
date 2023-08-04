@@ -1,0 +1,28 @@
+#upperbody{
+    animation: move 3s linear  infinite alternate ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+#flowers{
+    animation: move 5s linear  infinite alternate ;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes move {
+    0%{transform: rotate(5deg);}
+    100%{transform: rotate(-5deg);}
+}
+
+#svg{
+    /* height: 100px; */
+    margin-left: 100px;
+}
+#box{
+    background-color:rgb(255, 245, 226);
+}
+#wave{
+    position: absolute;
+    /* aspect-ratio: 16/3.55; */
+    bottom: -1%;
+    left: 0;
+}
